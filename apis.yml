@@ -1,7 +1,25 @@
 aid: petsapp
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/petsapp.png
 name: Petsapp
-description: Petsapp is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PetsApp is a veterinary client engagement and practice communication platform used by more than
+  1,000 veterinary practices worldwide, with millions of pets registered and millions of dollars in payments
+  processed. It gives clinics two-way SMS and in-app messaging, appointment booking, video consultations,
+  digital payments, wellness and health-care plan management, automated reminders, and a lightweight CRM for
+  building client relationships. PetsApp does not publish a public developer portal or open API; API access
+  and documentation are offered privately to technology and PIMS integration partners through its partner
+  program, and its public docs subdomain is a Jira Service Management customer help center rather than API
+  reference documentation.
 url: https://raw.githubusercontent.com/api-evangelist/petsapp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Veterinary
+- Practice Management
+- Client Communication
+- Appointments
+- Payments
+- Messaging
+- SaaS
+- Animal Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://petsapp.com
+- type: DomainSecurity
+  url: security/petsapp-domain-security.yml
+- type: Blog
+  url: https://petsapp.com/blog
+- type: PrivacyPolicy
+  url: https://petsapp.com/privacy-policy
+- type: TermsOfService
+  url: https://petsapp.com/terms-and-conditions
+- type: Support
+  url: https://docs.petsapp.com
+- type: Login
+  url: https://app.petsapp.com
+- type: SignUp
+  url: https://petsapp.com/demo
+- type: GitHubOrganization
+  url: https://github.com/petsapp
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
